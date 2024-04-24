@@ -3,7 +3,6 @@ FROM node:20-alpine
 WORKDIR /app
 
 COPY /draft-rankings/package.json .
-COPY /draft-rankings/postcss.config.js .
 COPY /draft-rankings/tailwind.config.js .
 COPY /draft-rankings/tsconfig.json .
 
